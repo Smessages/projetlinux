@@ -1,37 +1,51 @@
 # Projet de DevOps avec Linux, Bash/Python et Wordpress
 ## Objectif général du projet:
 
-Le but de ce projet est de vous familiariser avec l'administration système, l'automatisation, la mise en œuvre de la tolérance de charge et la gestion de la sécurité dans un environnement Linux, en utilisant Wordpress comme exemple d'application open source. Vous serez amené à utiliser Bash ou Python pour créer des scripts automatisés pour plusieurs tâches. Ce projet vous aidera à acquérir des compétences essentielles pour votre future carrière en DevOps.
+Le but de ce projet est de vous familiariser avec l'administration système, l'automatisation, la mise en œuvre de la tolérance de charge et la gestion de la sécurité dans un environnement Linux. Nous allons uliser 4 aplications open source comme exemple, à savoir Wordpress, Odoo, Mediawiki, et Joomla. Vous serez amené à utiliser Bash ou Python pour créer des scripts automatisés pour plusieurs tâches. Ce projet vous aidera à acquérir des compétences essentielles pour votre future carrière en DevOps.
 
 ## Durée du projet: 8 jours.
 
 ## Tâches spécifiques:
 
-### Jour 1-2 : Installation et configuration automatique de Wordpress
+### Jour 1 : Mise en place de l'environnement technique
+
+Installez VirtualBox et Vagrant sur votre système. Créez ensuite un environnement virtuel sur lequel vous travaillerez pour le reste du projet.
+### Jour 2-3 : Installation et configuration automatique de Wordpress
 
 Développez un script en Bash ou Python qui automatisera l'installation de Wordpress. Ce script doit inclure la configuration de la base de données nécessaire pour le fonctionnement de Wordpress. Assurez-vous que votre script permet la mise à jour automatique de Wordpress.
 
-### Jour 3 : Automatisation de la sauvegarde et de la restauration
+### Jour 4 : Automatisation de la sauvegarde et de la restauration
 
 Développez un script en Bash ou Python pour automatiser les tâches de sauvegarde et de restauration de Wordpress et de sa base de données. Votre script doit permettre la configuration de la fréquence des sauvegardes.
 
-### Jour 4 : Configuration d'un Load Balancer et d'un Reverse Proxy
+### Jour 5 : Configuration d'un Load Balancer et d'un Reverse Proxy
 
 Mettez en place un Load Balancer en frontal de l'application Wordpress pour distribuer la charge entre plusieurs instances de l'application. Configurez également un Reverse Proxy pour améliorer les performances et la sécurité.
 
-### Jour 5 : Configuration d'un certificat autosigné
+### Jour 6 : Configuration d'un certificat autosigné
 
 Configurez un certificat autosigné sur le Load Balancer pour permettre des communications sécurisées. Assurez-vous de comprendre les limitations d'un tel certificat et comment le processus de vérification fonctionne.
 
-### Jour 6 : Mise en place d'un stockage LVM pour la base de données
+### Jour 7-8 : Mise en place d'un stockage LVM pour la base de données
 
 Implémentez une solution de stockage LVM pour stocker les données de la base de données de Wordpress. Votre solution doit permettre l'extension flexible de l'espace de stockage.
 
 ## Ressources recommandées:
 
 Documentation officielle de Linux, Bash, Python, Wordpress, le Load Balancer que vous choisissez et LVM.
-Forums en ligne, tels que StackOverflow.
+Forums en ligne, tels que [StackOverflow](https://stackoverflow.com/).
 Tutoriels et articles en ligne sur l'automatisation, le load balancing, les certificats autosignés et le stockage LVM.
+Voici quelques liens utiles: 
+- [Documentation Wordpress](https://wordpress.org/documentation/)
+- [Documentation Odoo](https://www.odoo.com/documentation/14.0/administration/install.html)
+- [Documentation Mediawiki](https://www.mediawiki.org/wiki/Manual:Installing_MediaWiki)
+- [Documentation Joomla](https://docs.joomla.org/J3.x:Installing_Joomla)
+- [Documentation de Vagrant](https://developer.hashicorp.com/vagrant/docs)
+- [Documentation VirtualBox](https://www.virtualbox.org/wiki/Documentation)
+- [Load balancing avec nginx](https://nginx.org/en/docs/http/load_balancing.html)
+- [Load balancing avec HAProxy](https://www.digitalocean.com/community/tutorials/how-to-use-haproxy-to-set-up-http-load-balancing-on-an-ubuntu-vps)
+- [Documentation  LVM]()
+- [StackOverflow](https://stackoverflow.com/)
 ## Rendus:
 
 A la fin de ce projet, vous devez fournir:
