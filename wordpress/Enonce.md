@@ -10,7 +10,7 @@ Vous serez amené à utiliser **Bash** ou **Python** pour créer des scripts aut
 - Avoir des bases sur un Linux (CentOs de préférence)
 - Avoir des bases en scripting (Shell, Python, ou tout autre langage)
 - Savoir utiliser Vagrant et Virtualbox pour rapidement créer des machines virtuelles (c'est un plus)
-- 
+
 ## Répartition des groupes
 Chaque application sera gérée par un groupe de 4 personnes.
 - Groupe 1: Wordpress
