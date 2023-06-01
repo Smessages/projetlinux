@@ -37,7 +37,7 @@ Développez un script en Bash ou Python pour automatiser les tâches de sauvegar
 Mettez en place un Load Balancer en frontal de la partie IHM de l'application, afin de distribuer la charge entre plusieurs instances de l'application. Configurez également un Reverse Proxy pour améliorer les performances et la sécurité. Beaucoup de solutions existent, on s'attardera uniquement sur deux solutions qui sont généralement utilisées, HAProxy et nginx.
 - Les groupes 1 et 2 utiliserons HAProxy
 - Les groupes 3 et 4 utiliserons Nginx
-- 
+
 ### Jour 6 : Configuration d'un certificat autosigné
 
 Configurez un certificat autosigné sur le Load Balancer pour permettre des communications sécurisées. Assurez-vous de comprendre les limitations d'un tel certificat et comment le processus de vérification fonctionne.
@@ -62,6 +62,7 @@ Voici quelques liens utiles:
 - [Load balancing avec HAProxy](https://www.digitalocean.com/community/tutorials/how-to-use-haproxy-to-set-up-http-load-balancing-on-an-ubuntu-vps)
 - [Documentation  LVM]()
 - [StackOverflow](https://stackoverflow.com/)
+- 
 ## Rendus:
 
 A la fin de ce projet, vous devez fournir un repos github de votre projet, contenant:
@@ -70,10 +71,12 @@ A la fin de ce projet, vous devez fournir un repos github de votre projet, conte
 - Un rapport expliquant comment vous avez mis en place le Load Balancer, le Reverse Proxy, le certificat autosigné et le stockage LVM, y compris les défis que vous avez rencontrés et comment vous les avez surmontés. Ce sera une autre section du fichier Readme.
 - Une démonstration du fonctionnement de votre solution, soit par une démonstration en direct, soit par une vidéo enregistrée. Prévoir un Powerpoint pour celà.
 
+### Quelques exemples de rendus de projet
+- [jenkins, kubernetes, minikube, terraform, ansible](https://github.com/gengiskahn/projet-fil-rouge-groupe1)
+- [gitlab, snyk, docker, gitlab-registry, ansible](https://github.com/abderrezakaddar/fil-rouge)
+
 ## Évaluation:
 
 Votre projet sera évalué sur la base de la fonctionnalité et de l'efficacité de vos scripts, de la qualité de votre documentation et de la profondeur de votre compréhension des concepts impliqués.
 
-## Exemples de rendus de projet
-- [jenkins, kubernetes, minikube, terraform, ansible](https://github.com/gengiskahn/projet-fil-rouge-groupe1)
-- [gitlab, snyk, docker, gitlab-registry, ansible](https://github.com/abderrezakaddar/fil-rouge)
+
