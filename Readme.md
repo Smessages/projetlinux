@@ -14,9 +14,30 @@ Vous serez amené à utiliser **Bash** ou **Python** pour créer des scripts aut
 ## Répartition des groupes
 Chaque application sera gérée par un groupe de 4 personnes.
 - Groupe 1: Wordpress
+	- Arouna
+	- Choukri
+	- Giovani
+	- Yousri
+	- Amine
+	
 - Groupe 2: Odoo
+	- Abbdelatif
+	- Kévin
+	- Hadi
+	- Yacine
+	
 - Groupe 3: Mediawiki
+	- Jonathan
+	- Tigran
+	- Yousra
+	- Jorge
+	
 - Groupe 4: Joomla
+	- Nasim
+	- Christophe
+	- Karim
+	- Haythem
+	
 ## Tâches spécifiques:
 
 ### Jour 1 : Mise en place de l'environnement technique
@@ -63,7 +84,7 @@ Voici quelques liens utiles:
 - [Load balancing avec HAProxy](https://www.digitalocean.com/community/tutorials/how-to-use-haproxy-to-set-up-http-load-balancing-on-an-ubuntu-vps)
 - [Documentation  LVM]()
 - [StackOverflow](https://stackoverflow.com/)
-- 
+
 ## Rendus:
 
 A la fin de ce projet, vous devez fournir un repos github de votre projet, contenant:
