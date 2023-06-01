@@ -1,4 +1,4 @@
-# Projet de DevOps avec Linux, Bash/Python et Wordpress
+# Projet de DevOps avec Linux, Bash/Python, vagrant, virtualbox
 ## Objectif général du projet:
 
 Le but de ce projet est de vous familiariser avec l'administration système, l'automatisation, la mise en œuvre de la tolérance de charge et la gestion de la sécurité dans un environnement Linux. Nous allons nous baser sur 4 aplications open source comme exemple, à savoir **Wordpress, Odoo, Mediawiki, et Joomla**. Ce sont toutes des applications 2 tiers, c'est -à-dire qu'elles sont constituée d'une **partie frontale (IHM)** et d'une **partie backend (Base de donnée SQL)**.
@@ -57,6 +57,7 @@ Voici quelques liens utiles:
 - [Documentation Mediawiki](https://www.mediawiki.org/wiki/Manual:Installing_MediaWiki)
 - [Documentation Joomla](https://docs.joomla.org/J3.x:Installing_Joomla)
 - [Documentation de Vagrant](https://developer.hashicorp.com/vagrant/docs)
+- [Lien vers quelques stacks vagrant](https://github.com/diranetafen/cursus-devops/tree/master/vagrant)
 - [Documentation VirtualBox](https://www.virtualbox.org/wiki/Documentation)
 - [Load balancing avec nginx](https://nginx.org/en/docs/http/load_balancing.html)
 - [Load balancing avec HAProxy](https://www.digitalocean.com/community/tutorials/how-to-use-haproxy-to-set-up-http-load-balancing-on-an-ubuntu-vps)
