@@ -4,6 +4,10 @@
 Le but de ce projet est de vous familiariser avec l'administration système, l'automatisation, la mise en œuvre de la tolérance de charge et la gestion de la sécurité dans un environnement Linux. Nous allons nous baser sur 4 aplications open source comme exemple, à savoir **Wordpress, Odoo, Mediawiki, et Joomla**. Ce sont toutes des applications 2 tiers, c'est -à-dire qu'elles sont constituée d'une **partie frontale (IHM)** et d'une **partie backend (Base de donnée SQL)**.
 Vous serez amené à utiliser **Bash** ou **Python** pour créer des scripts automatisés pour plusieurs tâches. Ce projet vous aidera à acquérir des compétences essentielles pour votre future carrière en DevOps.
 
+## Schéma d'architecture
+Voici un schéma d'architecture cible à mettre en place
+![Architecture simple](img/Architecture.PNG)
+
 ## Durée du projet: 8 jours.
 
 ## Prérequis du projet
