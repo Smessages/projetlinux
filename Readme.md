@@ -56,6 +56,14 @@ Développez un script en Bash ou Python qui automatisera l'installation de votre
 ### Jour 4 : Automatisation de la sauvegarde et de la restauration
 
 Développez un script en Bash ou Python pour automatiser les tâches de sauvegarde et de restauration de votre application et de sa base de données. Votre script doit permettre la configuration de la fréquence des sauvegardes.
+Vous pourrez par exemple vous servir des commandes de backupage et de restaurations fournies par votre client base de donnée. Voici un exemple pour une base de donnée mysql:
+```bash
+# Sauvegarde
+mysqldump -u login --password=password database_name > "backup_$(date +"%Y_%m_%d_%I_%M_%p").sql"
+
+# Restauration
+mysql -u login -p password -h host database_name <  backup.sql
+```
 
 ### Jour 5 : Configuration d'un Load Balancer et d'un Reverse Proxy
 
